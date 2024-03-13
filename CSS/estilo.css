@@ -1,0 +1,154 @@
+.caja-padre {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    height: 95%;
+    width: 95%;
+}
+
+.fila-arriba, .fila-abajo {
+    display: flex;
+    width: 100%;
+}
+
+.caja {
+    flex: 1;
+    margin: 5px;
+
+}
+
+.fila-arriba .caja {
+    height: 50%;
+    background-color: lightblue;
+}
+
+.fila-abajo .caja {
+    height: 40%;
+    background-color: lightgreen;
+}
+
+
+
+.caja {
+    width: 30%; 
+    height: 500px;
+    background-color: rgb(14, 49, 61);
+    margin-bottom: 10px;
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .caja {
+        width: 100%; /
+    }
+}
+
+
+
+/* medio */
+.contenedor2 {
+    margin: 10px;
+    padding: 10px;
+    height: 95%;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.caja2 {
+    width: 30%; 
+    height: 100px;
+    background-color: lightblue;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 600px) {
+    .caja2 {
+        width: 35%; 
+    }
+}
+
+
+/* DERECHA */
+.contenedor3
+{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 90%;
+
+}
+
+.cajaA
+{
+    margin: 5px;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.cajaA1
+{
+    background-color: rgb(21, 18, 18);
+    margin: 30px;
+    width: 80%;
+    height: 80px;
+    display: flex;
+}
+
+.cajaB
+{
+    margin: 5px;
+    width: 95%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+}
+.cajaB21
+{
+    margin: 5px;
+    width: 95%;
+    height: 30%;
+    text-align: center;
+    display: flex;
+}
+.cajaB22
+{
+    margin: 5px;
+    width: 95%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    margin-top:30%;
+}
+
+.cajaB2
+{
+    background-color: rgb(244, 19, 7);
+    margin: 20px;
+    width: 60%;
+    height: 200px;
+}
+.cajaB1
+{
+    background-color: rgb(214, 85, 34);
+    margin: 20px;
+    width: 40%;
+    height: 80px;
+}
+.cajaB11
+{
+    background-color: rgb(214, 85, 34);
+    margin: 20px;
+    width: 40%;
+    height: 120px;
+}
